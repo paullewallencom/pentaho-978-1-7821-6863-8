@@ -1,0 +1,22 @@
+# Create DB farm
+monetdbd create ~/myMonetDBFarm
+monetdbd get all ~/myMonetDBFarm
+monetdbd set port=54321 ~/myMonetDBFarm
+monetdbd get all ~/myMonetDBFarm
+monetdbd start ~/myMonetDBFarm
+
+# Create dedicated db
+monetdb create sls
+monetdb start sls
+monetdb release sls
+monetdb status
+
+# Create dedicated users etl and schemata
+mclient -p54321 -umonetdb -dsls
+CREATE USER etl WITH PASSWORD 'etl' NAME 'etlsuperuser' SCHEMA sys;
+CREATE SCHEMA dma AUTHORIZATION etl;
+CREATE SCHEMA agile AUTHORIZATION etl;
+CREATE SCHEMA etl AUTHORIZATION etl;
+ALTER USER etl SET SCHEMA dma;
+
+\q

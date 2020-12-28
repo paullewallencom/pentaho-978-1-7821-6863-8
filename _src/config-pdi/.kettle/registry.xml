@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<entry key="entity-0-id">$NULL$~/home/dsteiner/Desktop/sls/tr_fact_sale_agile.ktr</entry>
+<entry key="entity-0-type">TRANSFORMATION</entry>
+<entry key="entity-0-title">tr_fact_sale_agile</entry>
+<entry key="entity-1-id">sls_dma~agile~fact_sale</entry>
+<entry key="entity-1-type">PHYS_TABLE</entry>
+<entry key="entity-1-title">fact_sale</entry>
+<entry key="link-0-subId">$NULL$~/home/dsteiner/Desktop/sls/tr_fact_sale_agile.ktr</entry>
+<entry key="link-0-subType">TRANSFORMATION</entry>
+<entry key="link-0-verb">POPULATES</entry>
+<entry key="link-0-objId">sls_dma~agile~fact_sale</entry>
+<entry key="link-0-objType">PHYS_TABLE</entry>
+<entry key="link-1-subId">$NULL$~/home/dsteiner/Desktop/sls/tr_fact_sale_agile.ktr</entry>
+<entry key="link-1-subType">TRANSFORMATION</entry>
+<entry key="link-1-verb">POPULATES</entry>
+<entry key="link-1-objId">sls_dma~agile~fact_sale</entry>
+<entry key="link-1-objType">PHYS_TABLE</entry>
+<entry key="link-2-subId">$NULL$~/home/dsteiner/Desktop/sls/tr_fact_sale_agile.ktr</entry>
+<entry key="link-2-subType">TRANSFORMATION</entry>
+<entry key="link-2-verb">POPULATES</entry>
+<entry key="link-2-objId">sls_dma~agile~fact_sale</entry>
+<entry key="link-2-objType">PHYS_TABLE</entry>
+<entry key="link-3-subId">$NULL$~/home/dsteiner/Desktop/sls/tr_fact_sale_agile.ktr</entry>
+<entry key="link-3-subType">TRANSFORMATION</entry>
+<entry key="link-3-verb">POPULATES</entry>
+<entry key="link-3-objId">sls_dma~agile~fact_sale</entry>
+<entry key="link-3-objType">PHYS_TABLE</entry>
+<entry key="link-4-subId">$NULL$~/home/dsteiner/Desktop/sls/tr_fact_sale_agile.ktr</entry>
+<entry key="link-4-subType">TRANSFORMATION</entry>
+<entry key="link-4-verb">POPULATES</entry>
+<entry key="link-4-objId">sls_dma~agile~fact_sale</entry>
+<entry key="link-4-objType">PHYS_TABLE</entry>
+</properties>
